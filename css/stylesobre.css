@@ -1,0 +1,93 @@
+/* Estilos gerais */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0a5bbd;
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /* Estilos da seção "Sobre" */
+  #sobre {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #0a5bbd;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .btn-contato {
+    display: inline-block;
+    background-color: #030233;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-contato:hover {
+    background-color: #4e75ca;
+  }
+  
+  /* Estilos do menu de navegação */
+  nav {
+    background-color: #092649;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+  }
+  
+  nav img {
+    width: 250px;
+    height: auto;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 600px) {
+    #sobre {
+      padding: 20px;
+    }
+  
+    h2 {
+      font-size: 20px;
+    }
+  
+    p {
+      font-size: 16px;
+    }
+  
+    .btn-contato {
+      font-size: 14px;
+    }
+  }
+  
